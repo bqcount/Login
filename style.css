@@ -1,0 +1,61 @@
+.fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-image:url('/assets/montains.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+   
+}
+
+#box{
+    position: absolute;
+    width: 50vw;
+    height:60vh ;
+    top: 20%;
+    left: 25%;
+    box-shadow: -5px 5px 11px 0px #b5b5b3;
+    border-radius: 20px !important;
+   
+   
+}
+ 
+
+#login-box{
+    position: absolute;
+    background-color: rgb(218, 221, 222);
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0 0 20px; 
+    
+}
+#register-box{
+    position: absolute; 
+    border-radius: 0 20px 20px 0;
+    width: 50%;
+    height: 100%;
+    display: inline;
+    left: 50%;
+    background-image: url("/assets/montains.png");
+    background-size: cover;
+
+}
+
+.login-register-button{
+
+    width: 50%;
+    height: 8%;
+    margin-left: 25%;
+    margin-top: 60%;
+    border-radius: 15px;
+    background-color: gradient;
+    border:0;
+    background: linear-gradient( #eb7171,#6e79f0);
+    font-size: 20px;
+    box-shadow: -5px 0px 11px 0px #f9f8f6;
+    
+}
