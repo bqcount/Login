@@ -19,7 +19,8 @@
     top: 20%;
     left: 25%;
     box-shadow: -5px 5px 11px 0px #b5b5b3;
-    border-radius: 20px !important;
+    border-radius: 20px;
+    background-color: rgb(218, 221, 222);
    
    
 }
@@ -46,16 +47,51 @@
 }
 
 .login-register-button{
-
     width: 50%;
     height: 8%;
-    margin-left: 25%;
-    margin-top: 60%;
     border-radius: 15px;
-    background-color: gradient;
     border:0;
     background: linear-gradient( #eb7171,#6e79f0);
     font-size: 20px;
     box-shadow: -5px 0px 11px 0px #f9f8f6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
+}
+
+.login-register-button:hover{
+    color: white;
+}
+
+#login-button{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -60%;
+    text-align: center;    
+}
+#register-button{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 25%;
+}
+
+input{
+    border-radius: 15px;
+    border: 0;
+    width: 70%;
+    height: 7%;
+    margin-top: 5%;
+    margin-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: -5px 5px 11px 0px #b5b5b3;
+}
+
+input:hover{
+    height: 8%;
+}
+ 
+#h2-sing-in{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+margin-top: 15%;
 }
