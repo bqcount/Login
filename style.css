@@ -14,6 +14,7 @@
 
 #box{
     position: absolute;
+    z-index: 15;
     width: 50vw;
     height:60vh ;
     top: 20%;
@@ -23,6 +24,17 @@
     background-color: rgb(218, 221, 222);
    
    
+}
+#box2{
+    position: absolute;
+    z-index: 2;
+    width: 50vw;
+    height:60vh ;
+    top: 20%;
+    left: 25%;
+    box-shadow: -5px 5px 11px 0px #b5b5b3;
+    border-radius: 20px;
+    background-color: rgb(218, 221, 222);   
 }
  
 
@@ -44,6 +56,26 @@
     background-image: url("/assets/montains.png");
     background-size: cover;
 
+}
+
+#login-box-right{
+    position: absolute; 
+    border-radius: 0 20px 20px 0;
+    width: 50%;
+    height: 100%;
+    display: inline;
+    left: 50%;
+    background-image: url("/assets/montains.png");
+    background-size: cover;
+
+}
+#register-box-left{
+    position: absolute;
+    background-color: rgb(218, 221, 222);
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0 0 20px; 
+    
 }
 
 .login-register-button{
@@ -68,12 +100,39 @@
     margin-left: -60%;
     text-align: center;    
 }
+
 #register-button{
     position: absolute;
     margin-top: 60%;
     margin-left: 25%;
 }
+#login-button-right{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 25%;
+}
+#register-button-left{
+    position: absolute;
+    margin-left: -60%;
+    margin-top: 25%;
+   
+}
+#register-form{
+    height: 90%;
+    
+}
+ 
+h2{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+margin-top: 15%;
+}
 
+#h2-register-here{
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
 input{
     border-radius: 15px;
     border: 0;
@@ -87,11 +146,4 @@ input{
 
 input:hover{
     height: 8%;
-}
- 
-#h2-sing-in{
-text-align: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 30px;
-margin-top: 15%;
 }
