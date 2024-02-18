@@ -106,12 +106,15 @@
     margin-top: 60%;
     margin-left: 25%;
 }
-#login-button-right{
+#login-button-left{
     position: absolute;
     margin-top: 60%;
     margin-left: 25%;
 }
-#register-button-left{
+.show{
+    visibility: hidden;
+}
+#register-button-right{
     position: absolute;
     margin-left: -60%;
     margin-top: 20%;
@@ -146,8 +149,4 @@ input{
 
 input:hover{
     height: 8%;
-}
-
-.active {
-   display: none;
 }

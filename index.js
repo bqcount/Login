@@ -1,18 +1,15 @@
 const register = document.getElementById('register-button')
 const login = document.getElementById('login-button')
-const registerLeft = document.getElementById('register-button')
-const loginRight = document.getElementById('register-button')
+const registerRight = document.getElementById('register-button-rigth')
+const loginLeft = document.getElementById('login-button-left')
 
 
-login.addEventListener('click',()=>{
-    
-    document.getElementById('login-box').classList.add('active');
-    document.getElementById('register-box').classList.remove('active');
-})
+loginLeft.addEventListener('click', () => {
+    loginLeft.style.visibility = 'hidden';
+});
 
-register.addEventListener('click',()=>{
-    document.getElementById('box').classList.remove('active');
-    document.getElementById('box2').classList.add('active');
+registerLeft.addEventListener('click',()=>{
+
       
 })
 
