@@ -6,10 +6,13 @@ const loginRight = document.getElementById('register-button')
 
 login.addEventListener('click',()=>{
     
- login.classList.add('');
-      
+    document.getElementById('login-box').classList.add('active');
+    document.getElementById('register-box').classList.remove('active');
 })
 
 register.addEventListener('click',()=>{
-    register.classList.add('');
+    document.getElementById('box').classList.remove('active');
+    document.getElementById('box2').classList.add('active');
+      
 })
+
