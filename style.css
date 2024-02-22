@@ -1,41 +1,38 @@
-.fondo{
+.fondo {
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     display: block;
-    background-image:url('/assets/montains.png') ;
+    background-image: url("/assets/montains.png");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
-   
 }
 
-#box{
+#box {
     position: absolute;
     z-index: 2;
     width: 50vw;
-    height:60vh ;
+    height: 60vh;
     top: 20%;
     left: 25%;
     box-shadow: -5px 5px 11px 0px #b5b5b3;
     border-radius: 20px;
     background-color: rgb(218, 221, 222);
-   
-   
 }
 
-#login-box{
+#login-box {
     position: absolute;
     background-color: rgb(218, 221, 222);
     width: 50%;
     height: 100%;
-    border-radius: 20px 0 0 20px; 
-    
+    border-radius: 20px 0 0 20px;
 }
-#image-box{
-    position: absolute; 
+
+#image-box {
+    position: absolute;
     z-index: 3;
     width: 50%;
     height: 100%;
@@ -43,163 +40,154 @@
     left: 50%;
     background-image: url("/assets/montains.png");
     background-size: cover;
-
 }
-.bordesRight{
+
+.bordesRight {
     border-radius: 0 20px 20px 0;
 }
-.bordesLeft{
+
+.bordesLeft {
     border-radius: 20px 0px 0px 20px;
 }
-#login-box-left{
-    position: absolute; 
-    border-radius: 20px 0 0 20px; 
-    width: 50%;
-    height: 100%;
-    display: inline;
-    background-color: rgb(218, 221, 222);
-    background-image: url("/assets/montains.png");
-    background-size: cover;
 
-}
-#register-box-right{
+#register-box-right {
     position: absolute;
     border-radius: 0 20px 20px 0;
     width: 50%;
     height: 100%;
     left: 50%;
-     
 }
 
-.login-register-button{
+.login-register-button {
     width: 50%;
     height: 8%;
     border-radius: 15px;
-    border:0;
-    background: linear-gradient( #eb7171,#6e79f0);
+    border: 0;
+    background: linear-gradient(#eb7171, #6e79f0);
     font-size: 20px;
     box-shadow: -5px 0px 11px 0px #f9f8f6;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.login-register-button:hover{
+.login-register-button:hover {
     color: white;
 }
 
-#login-button{
+#login-button {
     position: absolute;
     margin-top: 30%;
     margin-left: -60%;
-    text-align: center;    
+    text-align: center;
 }
 
-#register-button{
+#register-button {
     position: absolute;
     margin-top: 60%;
     margin-left: 25%;
-   
 }
-#login-button-left{
+
+#login-button-left {
     position: absolute;
     margin-top: 60%;
     margin-left: 25%;
-   
 }
 
-.showFalse{
+.showFalse {
     display: none;
 }
 
-
-#register-button-right{
+#register-button-right {
     position: absolute;
     margin-left: -60%;
     margin-top: 20%;
-   
-}
-#register-form{
-    height: 90%;   
-}
- 
-h2{
-text-align: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 30px;
-margin-top: 6%;
-margin-bottom: 0;
 }
 
-#h2-register-here{
+.register-form {
+    height: 90%;
+}
+
+.login-form {
+    height: 90%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    margin-top: 6%;
+    margin-bottom: 0;
+}
+
+#h2-register-here {
     margin-top: 8%;
     margin-bottom: 3%;
 }
-input{
+
+input {
     border-radius: 15px;
     border: 0;
     width: 70%;
     height: 7%;
     margin-top: 5%;
     margin-left: 15%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     box-shadow: -5px 5px 11px 0px #b5b5b3;
 }
 
-input:hover{
+input:hover {
     height: 8%;
 }
 
 .moveRight {
-
     animation: moveRightLogin 0.3s forwards;
-
 }
 
-
 @keyframes moveRightLogin {
-   0% {
-       transform: translate(5%,0%);
-   }
-   25% {
-       transform: translate(15%,0%);  
-     }
-   50% {
-       transform: translate(30%,0%);
+    0% {
+        transform: translate(-100%, 0%);
     }
-    75% {
-        transform: translate(45%,0%);
-     }
-   100% {
-      transform: translate(80%,0%); 
-   }
-   
 
+    25% {
+        transform: translate(-45%, 0%);
+    }
+
+    50% {
+        transform: translate(-30%, 0%);
+    }
+
+    75% {
+        transform: translate(-15%, 0%);
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        /* Cambiado a 100% */
+    }
 }
 
 .moveLeft {
-
     animation: moveLeftRegister 0.3s forwards;
-
 }
 
 @keyframes moveLeftRegister {
-   
-        0% {
-            transform: translate(-5%,0%);
-        }
-        25% {
-            transform: translate(-10%,0%);  
-          }
-        50% {
-            transform: translate(-15%,0%);
-         }
-         75% {
-             transform: translate(-20%,0%);
-          }
-        100% {
-           transform: translate(-100%,0%); 
-           border-radius: 20px 0px 0px 20px;
-        }
-    
- }
- 
+    0% {
+        transform: translate(0%, 0%);
+    }
+
+    25% {
+        transform: translate(-15%, 0%);
+    }
+
+    50% {
+        transform: translate(-30%, 0%);
+    }
+
+    75% {
+        transform: translate(-45%, 0%);
+    }
+
+    100% {
+        transform: translate(-100%, 0%);
+        border-radius: 20px 0px 0px 20px;
+    }
+}
