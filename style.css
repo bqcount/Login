@@ -25,18 +25,6 @@
    
    
 }
-#box2{
-    position: absolute;
-    z-index: 11;
-    width: 50vw;
-    height:60vh ;
-    top: 20%;
-    left: 25%;
-    box-shadow: -5px 5px 11px 0px #b5b5b3;
-    border-radius: 20px;
-    background-color: rgb(218, 221, 222);   
-}
- 
 
 #login-box{
     position: absolute;
@@ -46,9 +34,9 @@
     border-radius: 20px 0 0 20px; 
     
 }
-#register-box{
+#image-box{
     position: absolute; 
-    border-radius: 0 20px 20px 0;
+    z-index: 3;
     width: 50%;
     height: 100%;
     display: inline;
@@ -57,7 +45,12 @@
     background-size: cover;
 
 }
-
+.bordesRight{
+    border-radius: 0 20px 20px 0;
+}
+.bordesLeft{
+    border-radius: 20px 0px 0px 20px;
+}
 #login-box-left{
     position: absolute; 
     border-radius: 20px 0 0 20px; 
@@ -105,19 +98,19 @@
     position: absolute;
     margin-top: 60%;
     margin-left: 25%;
+   
 }
 #login-button-left{
     position: absolute;
     margin-top: 60%;
     margin-left: 25%;
+   
 }
 
 .showFalse{
-    visibility: hidden;
+    display: none;
 }
-.showTrue{
-    visibility: visible;
-}
+
 
 #register-button-right{
     position: absolute;
@@ -192,19 +185,20 @@ input:hover{
 @keyframes moveLeftRegister {
    
         0% {
-            transform: translate(80%,0%);
+            transform: translate(-5%,0%);
         }
         25% {
-            transform: translate(45%,0%);  
+            transform: translate(-10%,0%);  
           }
         50% {
-            transform: translate(30%,0%);
+            transform: translate(-15%,0%);
          }
          75% {
-             transform: translate(15%,0%);
+             transform: translate(-20%,0%);
           }
         100% {
-           transform: translate(5%,0%); 
+           transform: translate(-100%,0%); 
+           border-radius: 20px 0px 0px 20px;
         }
     
  }
