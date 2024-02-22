@@ -1,7 +1,8 @@
 # Login
 <div align="center">
   
-<img src="https://github.com/bqcount/Login/login.png"> 
+<img src="https://github.com/bqcount/Login/blob/main/Login.PNG"> 
+
   
   <h1> Login Template </h1>
  
